@@ -1,0 +1,190 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #9d1c1c;
+    padding: 3px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+}
+
+.gilas-logo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.gilas-logo img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #00083a;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+nav .registration{
+    float: right;
+}
+nav .login {
+    float: right;
+}
+
+section {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    position: relative;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000;
+}
+#about {
+    background-image: linear-gradient(to right, rgb(205, 83, 83) , rgb(255, 255, 255), rgb(205, 83, 83));
+}
+#founder {
+    background-image: linear-gradient(to right, rgb(205, 83, 83) , rgb(255, 255, 255), rgb(205, 83, 83));
+}
+#services {
+    background-image: linear-gradient(to right, rgb(205, 83, 83) , rgb(255, 255, 255), rgb(205, 83, 83));
+}
+#contact {
+    background-image: linear-gradient(to right, rgb(205, 83, 83) , rgb(255, 255, 255), rgb(205, 83, 83));
+    
+}
+
+footer {
+    background-color: #00083a;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Custom styling for Home and Equipment sections */
+#home {
+    background: url('ss.jpg')  center/cover no-repeat;
+    color: rgb(196, 163, 163);
+    padding: 230px 100px;
+}
+#home h2 {
+    color: #f9f9f9;
+    font-size: 60px;
+}
+#home p {
+    color: #f9f9f9;
+}
+
+#profile {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.position img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* To make the image circular */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.position h3 {
+    color: #964c4c;
+}
+
+.position p {
+    font-size: 16px;
+    color: #555;
+}
+
+#equipment {
+    background-image: linear-gradient(to right, rgb(205, 83, 83) , rgb(255, 255, 255), rgb(205, 83, 83));
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#equipment h2 {
+    color: #333;
+}
+
+#equipment p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+#equipment ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#equipment ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+#services {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    color: #333;
+}
+
+#services p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}   

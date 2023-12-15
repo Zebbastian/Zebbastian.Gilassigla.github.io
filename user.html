@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user.css">
+    <title>Admin Panel - Patient Management System</title>
+</head>
+<body>
+    <header>
+        <!-- Header content... -->
+    </header>
+
+    <div class="container">
+        <main class="main-content">
+            <h2>Add User</h2>
+
+            <form id="addUserForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="button" onclick="addUser()">Add User</button>
+            </form>
+        </main>
+
+        <!-- Sidebar content... -->
+    </div>
+
+    <footer>
+        <!-- Footer content... -->
+    </footer>
+
+    <script src="user.js"></script>
+</body>
+</html>
